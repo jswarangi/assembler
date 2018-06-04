@@ -1,0 +1,10 @@
+CSC_354	START	0 
+FIRST	RESW	1 
+GO		LDA		=C'ABCDE'
+        LDA		=X'00ff'
+        +LDT	=X'02468A'
+SECOND	BYTE	C'xyz'
+THIRD	RESB	6 
+FOURTH	BYTE	X'00FF'
+FIFTH	BYTE	C'xyz'
+        END		GO 

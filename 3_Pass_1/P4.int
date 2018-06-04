@@ -1,0 +1,15 @@
+LINE#     LOCCTR    LABEL               OPERATION           OPERAND        
+1         00000     PROG                START               0             
+2         00000     FIRST               STL                 RETADR   
+3         00003     SECOND              LDA                 =CꞌABCDꞌ
+4         00006     THIRD               LDA                 =XꞌFFꞌ
+5         00009                         J                   @RETADR  
+6         0000c     DEF                 BYTE                CꞌDEFꞌ
+7         00000     SYM1                EQU                 512      
+8         00000     SYM2                EQU                 *        
+9         00000     SYM3                EQU                 SECOND-FIRST
+10        0000c     RETADR              RESW                1        
+11        0000f                         END                 FIRST	         
+
+LENGTH OF PROGRAM: f
+
